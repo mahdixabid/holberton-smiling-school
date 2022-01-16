@@ -1,0 +1,282 @@
+.nav-bg {
+  background-image: url(images/pic_1.jpg);
+  background-size : cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav-item {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: #C271FF !important;
+}
+
+.header-btn {
+  background-color: #C271FF;
+  filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+  border-radius: 20px;
+}
+
+.header-btn__text {
+  font-size: 14px;
+}
+
+.header-btn:hover {
+  background-color: white !important;
+  color: #C271FF !important;
+}
+
+
+.hero__title {
+  font-size: 61px;
+  line-height: 77px;
+}
+
+.hero__subtitle {
+  max-width: 253px;
+  margin: 0 auto;
+  line-height: 45px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.team__persons {
+  font-size: 12px;
+}
+
+.team__title {
+  font-size: 32px;
+  line-height: 150px;
+  padding-bottom: 20px;
+  font-weight: 300;
+}
+
+.team_word {
+  color: #C271FF;
+}
+
+.testimonial {
+  background-color: #C271FF;
+}
+
+.testimonial__text {
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.testimonial__name {
+  line-height: 33px;
+}
+
+.tutorial {
+  padding: 5rem 0;
+}
+
+.tutorial__title {
+  font-size: 42px;
+  line-height: 40px;
+  padding-bottom: 5rem;
+}
+
+.card__title {
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.card-text {
+  color: rgba(7, 22, 41, 0.501584);
+  font-size: 14px;
+}
+
+.star-size {
+  width: 15px;
+  height: 15px;
+}
+
+.position-absolute {
+  top: 10%;
+  left: 35%;
+}
+
+.membership {
+  background-color: #071629;
+  padding: 5rem 0;
+}
+
+.membership__title {
+  font-size: 35px;
+  line-height: 40px;
+  padding-bottom: 5rem;
+}
+
+.Latest-videos {
+  padding: 5rem 0;
+}
+
+.footer {
+  background-color: #071629;
+  padding: 5rem 0;
+}
+
+.social-size {
+  font-size: 30px;
+}
+
+
+/****** PRICING PAGE ***********/
+
+.nav-pricing {
+  background-image: url(images/pic_2.jpg);
+  background-size : cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.holberton_school-icon-check {
+  font-size: 30px;
+  color: #82d24f;
+}
+
+.grid_btn {
+  background-color: #C271FF;
+  padding: 13px 47px;
+}
+
+.grid_price {
+  font-size: 44px;
+}
+
+.grid_month {
+  font-size: 12px;
+}
+
+.gray-bg {
+  background-color: #979797;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
+.font-32 {
+  font-size: 32px;
+}
+
+.font-60 {
+  font-size: 60px;
+}
+
+/** Courses Page **/
+
+.courses-bg {
+  background-image: url(images/pic_3.jpg);
+  background-size : cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.coiny {
+  font-family: 'Coiny';
+}
+
+.search-bg {
+  background-color: #C271FF;
+}
+
+.lightpurple-bg{
+  background-color: #d195ff;
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+
+.dropdown-spacing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+.search-form {
+  height: 50px;
+}
+
+.search-form:focus {
+  background-color: #d195ff;
+}
+
+.search-form::placeholder {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.icon-bg {
+  background-color: #d195ff;
+  font-size: 28px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-top-style: rounded;
+}
+
+.opacity-35 {
+  opacity: 0.35;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-area {
+  grid-area:  1/1;
+  align-self: center;
+  justify-self: center;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .navbar {
+    max-width: 690px;
+    margin: 0 auto;
+  }
+
+  .hero__title {
+    font-size: 110px;
+    line-height: 120px;
+    max-width: 684px;
+    margin: 0 auto;
+  }
+
+  .hero__subtitle {
+    font-size: 12px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .nav-bg {
+    background-position: unset;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .navbar {
+    max-width: 1104px;
+  }
+
+  .team__persons {
+    font-size: 16px;
+  }
+
+  .nav-pricing {
+    background-position: unset;
+  }
+}

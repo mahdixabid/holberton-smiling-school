@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="holberton_school-icon/style.css">
+  <link rel='icon' type='image/png' href='./images/favicon.ico'>
+  <title>SmileSchool - courses</title>
+</head>
+<body>
+  <header class="courses-bg text-white">
+    <nav class="navbar navbar-expand-md navbar-dark">
+
+      <!-- Toggler/collapsibe Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Brand -->
+      <a class="navbar-brand d-flex flex-column flex-md-row align-items-center mt-3" href="#">
+        <img class="img-fluid" width="37" height="30" src="images/smile_off.png" alt="smile picture">
+        <img class="img-fluid ml-md-3" width="114" height="20" src="images/logo.png" alt="logo">
+      </a>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse d-md-flex justify-content-md-end" id="collapsibleNavbar">
+        <ul class="navbar-nav text-center">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">COURSES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white mx-md-4" href="#">PRICING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">LOGIN</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="d-none d-sm-block">
+      <div class="container text-center text-white py-5">
+        <h1 class="coiny font-32">« Don’t cry because it’s over.<br>
+            <strong class="team_word">Smile</strong> because it happened. »
+        </h1>
+      </div>
+    </section>
+  </header>
+
+  <!-- Search section -->
+  <section class="search-bg text-white font-22 py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-3">
+          <div class="text-uppercase font-12 font-weight-bold">Keywords</div>
+          <div class="input-group border-bottom">
+            <span class="input-group-addon icon-bg">
+              <div class="holberton_school-icon-search_1"></div>
+            </span>
+            <input type="text" class="form-control border-top-0 search-bg text-white border-0 search-form" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search by keywords">
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="text-uppercase font-12 font-weight-bold">Topic</div>
+          <div class="dropdown">
+            <div class="rounded-top search-bg text-white border-bottom dropdown-toggle dropdown-spacing" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown">
+                Novice
+            </div>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <a class="dropdown-item" href="#">Novice</a>
+              <a class="dropdown-item" href="#">Intermediate</a>
+              <a class="dropdown-item" href="#">Expert</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="text-uppercase font-12 font-weight-bold">Sort by</div>
+          <div class="dropdown">
+            <div class="rounded-top search-bg text-white border-bottom dropdown-toggle dropdown-spacing" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Most Popular
+            </div>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Most Popular</a>
+              <a class="dropdown-item" href="#">Most Recent</a>
+              <a class="dropdown-item" href="#">Most Viewed</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+</body>
+</html>
